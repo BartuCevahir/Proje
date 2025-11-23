@@ -1,0 +1,31 @@
+def topla(a,b):
+    return a+b
+def çıkar(a,b):
+    return a-b
+def çarp(a,b):
+    return a*b
+def böl(a,b):
+    return a/b
+
+print("HESAP MAKİNESİ")
+print("1-topla")
+print("2-çıkar")
+print("3-çarp")
+print("4-böl")
+
+s = int(input("seçiminiz?"))
+if not (s<1 or s>4):
+    s1 = int(input("1.sayıyı giriniz:"))
+    s2 = int(input("2.sayıyı giriniz:"))
+   
+    if s==1:
+        print("Sonuç:",topla(s1,s2))
+    
+    if s==2:
+        print("Sonuç:",çıkar(s1,s2))
+    
+    if s==3:
+        print("Sonuç:",çarp(s1,s2))
+    
+    if s==4:
+        print("Sonuç:",böl(s1,s2))
