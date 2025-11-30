@@ -1,0 +1,10 @@
+içecekler = {
+    "asitli" : ["kola","fanta"],
+    "asitsiz" : ["su","ayran"],
+    "soğuk" : ["limonata","icetea"],
+}
+
+
+# print(yemekler1)
+# print(yemekler1["anayemekler"])
+print(içecekler["asitsiz"][1])

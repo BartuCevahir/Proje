@@ -8,12 +8,12 @@ def böl(a,b):
     return a/b
 
 print("HESAP MAKİNESİ")
-print("1-topla")
-print("2-çıkar")
-print("3-çarp")
-print("4-böl")
+print("1-Topla")
+print("2-Çıkar")
+print("3-Çarp")
+print("4-Böl")
 
-s = int(input("seçiminiz?"))
+s = int(input("Seçiminiz?"))
 if not (s<1 or s>4):
     s1 = int(input("1.sayıyı giriniz:"))
     s2 = int(input("2.sayıyı giriniz:"))

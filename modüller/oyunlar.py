@@ -15,3 +15,4 @@ def oyunlarmenü():
     print("║                                  ║")
     print("║         Seçiminiz nedir?         ║")
     print("╚══════════════════════════════════╝")
+    seçim=input()

@@ -1,6 +1,0 @@
-def selamla(kim):
-    return f"Selam", {kim} 
-    
-yazilacak= selamla("Bartu")
-print(yazilacak)
-print(selamla("Emir"))

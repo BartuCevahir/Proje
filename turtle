@@ -16,4 +16,5 @@ for a in range(random.randint (10,50)):
         turtle.forward(ku)
         turtle.right(90)
 
+        
 input()

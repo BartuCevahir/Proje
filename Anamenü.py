@@ -5,9 +5,9 @@ def anamenü():
     print("║   1- Hesaplamalar                ║")
     print("║   2- Çizimler                    ║")
     print("║   3- Oyunlar                     ║")
-    print("║   4-                             ║")
-    print("║   5-                             ║")
-    print("║   6-                             ║")
+    print("║   4- Bilgi Yarışması             ║")
+    print("║   5- Zamanlayıcı                 ║")
+    print("║   6- Sözlük                      ║")
     print("║   7-                             ║")
     print("║   8-                             ║")
     print("║   9-                             ║")
@@ -28,5 +28,7 @@ def anamenü():
     if seçim=="3":
         import modüller.oyunlar
         modüller.oyunlar.oyunlarmenü()
+    anamenü()
+
        
 anamenü()

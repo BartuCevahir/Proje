@@ -23,10 +23,4 @@ def çizimlermenü():
         import modüller.cizim_ucgen
         modüller.cizim_ucgen.ucgencizimimenü()
         
-    if seçim=="3":
-        import modüller.çizimmodülleri
-        modüller.çizimmodülleri 
-    if seçim=="4":
-        import modüller.çizimmodülleri
-        modüller.çizimmodülleri
             
