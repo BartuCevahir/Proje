@@ -11,7 +11,6 @@ def hesaplamalarmenü():
     print("║   7-Dikdörtgen Alanı             ║")
     print("║   8-Dikdörtgen Çevresi           ║")
     print("║   9-Anamenü                      ║")
-    print("║  10-Çıkış                        ║")
     print("║                                  ║")
     print("║         Seçiminiz nedir?         ║")
     print("╚══════════════════════════════════╝")
@@ -31,7 +30,7 @@ def hesaplamalarmenü():
         modüller.hesaplamalar_bolme.bolmemenü()
     if seçim=="5":
         import modüller.hesaplamalar_ustalma
-        modüller.hesaplamalar_ustalma.ustalamenü()
+        modüller.hesaplamalar_ustalma.ustalmamenü()
     if seçim=="6":
         import modüller.hesaplama_çarpımtablosu
         modüller.hesaplama_çarpımtablosu.carpımtablosumenü()
@@ -42,5 +41,4 @@ def hesaplamalarmenü():
         import modüller.hesaplamalar_dikdörtgencevresi
         modüller.hesaplamalar_dikdörtgencevresi.dikdörtgencevresimenü()
 
-    if seçim=="9":
-    if seçim=="10":pass
+    if seçim=="9":pass

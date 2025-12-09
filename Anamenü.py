@@ -6,12 +6,7 @@ def anamenü():
     print("║   2- Çizimler                    ║")
     print("║   3- Oyunlar                     ║")
     print("║   4- Bilgi Yarışması             ║")
-    print("║   5- Zamanlayıcı                 ║")
-    print("║   6- Sözlük                      ║")
-    print("║   7-                             ║")
-    print("║   8-                             ║")
-    print("║   9-                             ║")
-    print("║  10-                             ║")
+    print("║   5- Saat                        ║")
     print("║                                  ║")
     print("║         Seçiminiz nedir?         ║")
     print("╚══════════════════════════════════╝")
@@ -28,6 +23,14 @@ def anamenü():
     if seçim=="3":
         import modüller.oyunlar
         modüller.oyunlar.oyunlarmenü()
+
+    if seçim=="4":
+        import modüller.yarışma
+        modüller.yarışma.yarışmamenü()
+        
+    if seçim=="5":
+        import modüller.saat
+        modüller.saat.saatmenü()
     anamenü()
 
        
