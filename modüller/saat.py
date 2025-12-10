@@ -5,7 +5,8 @@ def saatmenü():
     print("║   1-Saat                         ║")
     print("║   2-Zamanlayıcı                  ║")
     print("║   3-Kronometre                   ║")
-    print("║   4-Anamenü                      ║")
+    print("║   4-Tarih                        ║")
+    print("║   5-Anamenü                      ║")
     print("║                                  ║")
     print("║         Seçiminiz nedir?         ║")
     print("╚══════════════════════════════════╝")   
@@ -20,4 +21,7 @@ def saatmenü():
     if seçim=="3":
         import modüller.saat_kronometre
         modüller.saat_kronometre.kronometremenü()
-    if seçim=="4":pass
+    if seçim=="4":
+        import modüller.saat_tarih
+        modüller.saat_tarih.tarihmenü()
+    if seçim=="5":pass
