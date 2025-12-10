@@ -1,2 +1,2 @@
-# pythone01
+# Proje
 Etkin Akademi Python dersi örnekleri 
